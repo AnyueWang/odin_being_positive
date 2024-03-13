@@ -2,13 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     text-align: center;
     justify-content: space-between;
 }
 body > div {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .header {
     display: flex;
@@ -63,16 +63,19 @@ button {
 }
 .signup {
     background-color: #3882f6;
-    margin: 55px 10%;
+    margin: 55px 20%;
     display: flex;
     justify-content: space-between;
     text-align: left;
     align-items: center;
     gap: 50px;
+    padding: 30px 100px;
 }
 .signup h3 {
     font-size: 25px;
     margin-bottom: 0;
+    font-weight: 900px;
+    font-family: Arial;
 }
 .signup p {
     margin-top: 5px;
